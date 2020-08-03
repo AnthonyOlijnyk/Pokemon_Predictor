@@ -6,18 +6,18 @@ This website was written using the following technologies and languages: HTML, C
 
 Adaptive design was of the utmost importance when creating the website. Here are some examples of how the website adapts to certain screen sizes:
 
-First page large screens:
+## First page large screens:
 
 ![](images/first.png)
 
-First page small screens:
+## First page small screens:
 
 ![](images/mobilefirst.png)
 
-Second page large screens:
+## Second page large screens:
 
 ![](images/second.png)
 
-Second page small screens:
+## Second page small screens:
 
 ![](images/mobilesecond.png)
