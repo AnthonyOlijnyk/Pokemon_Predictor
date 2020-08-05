@@ -16,48 +16,25 @@
             </div>
         </div>
         <div class="container">
-            <div class="row block">
-                <div class="col-12 col-sm-6">
+            <div class="row">
+                <div class="col-12">
                     <h1 class="heading">Most Compatible Pokemon</h1>
                     <p class="details">
-                        {{compatible_pokemon.0}}
+                        #{{pokemon_info.1}}
+                        {{pokemon_info.0}}
                     </p>
-                </div>
-                <div class="col-12 col-sm-6">
-                    <h1 class="heading">Top 6 Most Compatible</h1>
-                    <ol>
-                        <li>{{compatible_pokemon.0}}</li>
-                        <li>{{compatible_pokemon.1}}</li>
-                        <li>{{compatible_pokemon.2}}</li>
-                        <li>{{compatible_pokemon.3}}</li>
-                        <li>{{compatible_pokemon.4}}</li>
-                        <li>{{compatible_pokemon.5}}</li>
-                    </ol>
-                </div>
-            </div>
-            <div class="row block">
-                <div class="col-12 col-sm-6">
-                    <h1 class="heading">Least Compatible Pokemon</h1>
-                    <p class="details btto">
-                        {{compatible_pokemon.6}}
-                    </p>
-                </div>
-                <div class="col-12 col-sm-6">
-                    <h1 class="heading">Top 6 Least Compatible</h1>
-                    <ol>
-                        <li>{{compatible_pokemon.6}}</li>
-                        <li>{{compatible_pokemon.7}}</li>
-                        <li>{{compatible_pokemon.8}}</li>
-                        <li>{{compatible_pokemon.9}}</li>
-                        <li>{{compatible_pokemon.10}}</li>
-                        <li>{{compatible_pokemon.11}}</li>
-                    </ol>
                 </div>
             </div>
             <div class="row">
-                <div class=col-12>
+                <div class="col-12">
+                    <!--<img src="{% static 'pokemon/1.png' %}">-->
+                    <img class="center-block" src="{% static "" %}pokemon/{{pokemon_info.1}}.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
                     <form action="index">
-                        <button class="btn btn-primary">Try Again!</button>
+                        <button class="btn btn-primary cenb">Try Again!</button>
                     </form>
                 </div>
             </div>

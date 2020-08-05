@@ -8,6 +8,11 @@ body{
     font-size: 20px;
 }
 
+img{
+    margin: 0px;
+    padding: 0px;
+}
+
 .jumbotron{
     background-color: red;
     color: white;
@@ -27,7 +32,6 @@ body{
 .details{
     text-align: center;
     font-size: 60px;
-    margin: 40px 40px 40px 40px;
 }
 
 .heading{
@@ -49,6 +53,7 @@ ol{
     font-size: 30px;
     margin: 20px;
 }
+
 
 .slider{
     -webkit-appearance: none;

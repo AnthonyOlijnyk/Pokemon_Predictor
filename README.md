@@ -1,8 +1,8 @@
 # Pokemon Compatibility Predictor Website
 
-A fun little website where you answer a series of 9 questions that will tell you what pokemon is the most and least compatible with you. In addition to this, I also show the top 6 pokemon that are the most and least like you so that you know which pokemon to use on your team, and which pokemon to stay away from.
+A fun little website where you answer a series of 8 questions that will tell you what pokemon is the most compatible with you. All 721 Pokemon from generations 1-6 are possible outcomes here. Make sure you answer truthfully!
 
-This website was written using the following technologies and languages: HTML, CSS, Bootstrap, Python, Django.
+This website was written using the following technologies and languages: HTML, CSS, Bootstrap, Python, Django and Scikit-learn.
 
 Adaptive design was of the utmost importance when creating the website. Here are some examples of how the website adapts to certain screen sizes:
 
