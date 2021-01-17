@@ -1,10 +1,8 @@
 # Pokemon Compatibility Predictor
 
-Languages used: Python, HTML, CSS
+Libraries/Frameworks used: Bootstrap, Django, Scikit-learn
 
-Libraries/frameworks used: Bootstrap, Django, Scikit-learn
-
-Technologies used: Jupyter Notebook
+Technology used: Jupyter Notebook
 
 A fun little website where you answer a series of 8 questions that will tell you what pokemon is the most compatible with you. All 721 Pokemon from generations 1-6 are possible outcomes here. Make sure you answer truthfully!
 
